@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<p> file index header </p>
+{% endblock %}
+
+{% block content %}
+{% for title in titleList %}
+<span> {{title }} </span>
+{% endfor %}
+{% endblock %}
+
